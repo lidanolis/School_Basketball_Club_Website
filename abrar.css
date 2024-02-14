@@ -1,0 +1,294 @@
+﻿.auto-style1 {
+	text-align: center;
+	font-size: x-large;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style2 {
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-size: x-large;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style4 {
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	background-color: #33CCCC;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style5 {
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	background-color: #33CCCC;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style6 {
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style7 {
+	font-size: x-large;
+}
+.auto-style8 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style9 {
+	font-size: x-large;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style10 {
+	box-shadow: 0 0 10px 3px black;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style11 {
+	font-size: x-large;
+}
+
+.timetableinfojump{
+	transition:transform 0.5s;
+}
+.timetableinfojump:hover{
+	transform:scale(130%);
+}
+
+.traininginfo{
+	width:400px;
+	height:500px;
+	padding:15px 25px;
+	box-sizing: border-box;
+	margin:10px 15px;
+	transition:transform 0.5s;
+}
+.traininginfo:hover{
+	transform:scale(110%);
+  	border: 5px dashed white;
+}
+
+.timetableinfo{
+	transition:transform 0.5s;
+}
+.timetableinfo:hover{
+	transform:scale(110%);
+  	border: 5px dashed black;
+}
+
+
+.tech{
+	background-image:url('abrar/balljump.jpg');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.tech:hover{
+	background-image:url('abrar/balljump.gif');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.desc{
+	background-image:url('abrar/timetable.jpg');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.desc:hover{
+	background-image:url('abrar/timetable.gif');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.addimgt{
+	background:white;
+	background-image:url('abrar/Tech.png');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.addimgd{
+	background:white;
+	background-image:url('abrar/Desc.png');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+
+.rowdisplay{
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+.exerciseinfo{
+	width:500px;
+	height:600px;
+	padding:15px 25px;
+	box-sizing: border-box;
+	margin:10px 15px;
+}
+/*------------------------------*/
+
+
+.auto-style8 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style6 {
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style1 {
+	color: black;
+	text-align: center;
+	font-size: x-large;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.auto-style2 {
+	color: black;
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-size: x-large;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	text-align: center;
+}
+.auto-style7 {
+	font-size: x-large;
+	color: black;
+	text-align: center;
+}
+.auto-style11 {
+	font-size: x-large;
+}
+.auto-style12 {
+	text-align: center;
+}
+.auto-style13 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: xx-large;
+}
+.auto-style14 {
+	text-align: center;
+	font-size: x-large;
+}
+.auto-style15 {
+	font-size: x-large;
+	color: rgb(32, 33, 36);
+}
+.auto-style16 {
+	border-width: 1px;
+}
+.auto-style17 {
+	box-shadow: 0 0 10px 3px black;
+	margin-top: 17px;
+}
+.auto-style18 {
+	box-shadow: 0 0 10px 3px black;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 20px;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 20px;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .activedesc {
+  padding: 5px;
+  background:#00FF00;
+  color: white !important
+}
+.days li .activetech {
+  padding: 5px;
+  background: #FF6600;
+  color: white !important
+}
+.days li .activeevent {
+  padding: 5px;
+  background: red;
+  color: white !important
+}
+
+.popup{
+	transition:transform 0.5s;
+}
+.popup:hover{
+	transform:scale(500%);
+}
+.buttonevent{
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	color: black;
+	font-size: 20px;
+	padding: 12px 0;
+	background:white;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	transition: transform 0.5s;
+}
+.buttonevent:hover{
+	transform:scale(120%);
+	color:white;
+	background-color:#2A5DB0;
+}
+

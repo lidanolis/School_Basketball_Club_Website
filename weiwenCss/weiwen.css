@@ -1,0 +1,17 @@
+﻿/* weiwen.css */
+.auto-style1 {
+	text-align: center;
+	font-size: x-large;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.timetableinfojump{
+	transition:transform 0.5s;
+}
+.timetableinfojump:hover{
+	transform:scale(130%);
+}
+.auto-style19 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-weight: normal;
+	font-size: x-large;
+}

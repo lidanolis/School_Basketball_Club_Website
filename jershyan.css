@@ -1,0 +1,246 @@
+﻿.shadow{ /*shadow place a shadow*/
+	box-shadow: 0 0 10px 3px black;
+}
+
+/*achiements page*/
+.rowdisplay{ /*display flex ,you can imagine it as making everything a block, and placing them horizontally in a row*/
+	display:flex; /*default flex places the blocks into a row*/
+	align-items: center;
+  	justify-content: center;
+  	gap: 0px;
+}
+
+	display:flex; /*default flex places the blocks into a row*/
+	align-items: center;
+  	justify-content: center;
+  	gap: 0px;
+}
+
+.columndisplay{
+	display:flex; 
+	flex-direction:column;/*you can change it to a vertical row*/
+	align-items: center;
+  	justify-content: center;/*centralize the arrangement*/
+  	gap: 10px;/*having gaps in between is a good pratice*/
+}
+
+.card{ /*simple animation*/
+	color: black;
+	width: 500px;
+	height: 333px; /*the diameters of the shape*/;
+	transition: transform 0.5s;
+	font-size: large;
+}
+
+.card:hover{
+	transform:translateY(-30px); 
+	background:aqua;/*this one translate means moving (upwards by 10px); -up; +down*/
+	color:black;
+}
+
+/*executives page*/
+.excard{
+	width: 300px;
+	height: 400px; 
+	transition: transform 0.5s;
+}
+
+.excard:hover{
+	transform:translateY(-20px); 
+}
+	
+.exrowdisplay{
+	display:flex; /*default flex places the blocks into a row*/
+	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+  	font-family:"Comic Sans MS";
+  	font-size:large;
+  	cursor:url("jershyan/basketball.png"), default;
+}
+
+/*about us page*/
+.abrowdisplay{
+	display:flex; /*default flex places the blocks into a row*/
+	align-items: center;
+  	justify-content: center;
+  	gap: 0px;
+}
+
+.abcard{
+	color: black;
+	width: 500px;
+	height: 333px; /*the diameters of the shape*/;
+	transition: transform 0.5s;
+	font-size: large;
+	font-family:"Comic Sans MS";
+}
+
+.abcard:hover{
+	transform:translateY(-30px); 
+}
+
+.abrowdisplay2{
+	display:flex; /*default flex places the blocks into a row*/
+	align-items: center;
+  	justify-content: center;
+  	gap: 10px;
+  	font-family:"Comic Sans MS";
+  	font-size:medium;
+}
+
+/*gallery page*/
+.slideshow-container { /* Slideshow container */
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next { /* Next & previous buttons */
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next { /* Position the "next button" to the right */
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.ebuttonevent{
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	color: black;
+	font-size: 12px;
+	font-family: "Cooper Black";
+	padding: 12px 0;
+	background: #CCFFFF;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	transition: transform 0.5s;
+	font-weight: bold;
+}
+.ebuttonevent:hover{
+	transform:scale(120%);
+	color:white;
+	background-color:#66CCFF;
+}
+
+.abuttonevent{
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	color: black;
+	font-size: 12px;
+	font-family: "Cooper Black";
+	padding: 12px 0;
+	background:#CCFFCC;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	transition: transform 0.5s;
+	font-weight: bold;
+}
+.abuttonevent:hover{
+	transform:scale(120%);
+	color:white;
+	background-color:#99FF66;
+}
+
+.acbuttonevent{
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+	color: black;
+	font-size: 12px;
+	font-family: "Cooper Black";
+	padding: 12px 0;
+	background:#FFFFCC;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	transition: transform 0.5s;
+	font-weight: bold;
+}
+.acbuttonevent:hover{
+	transform:scale(120%);
+	color:white;
+	background-color:#FFCC66;
+}
+
+

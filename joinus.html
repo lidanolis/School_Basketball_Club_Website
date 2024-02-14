@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>1JoinUs</title>
+<link rel="stylesheet" href="fixing.css" type="text/css"/>
+<link rel="stylesheet" href="eamon.css" type="text/css"/>
+<link rel="stylesheet" href="jershyan.css" type="text/css"/>
+<link rel="stylesheet" href="abrar.css" type="text/css"/>
+
+<script type="text/javascript">
+function totop() {
+  window.scrollTo(0,0);
+}
+function myFunction() {
+  var change = document.getElementById("check").style.zIndex="3";
+  var changes = document.getElementById("check").style.opacity="1";
+}
+function checkbox(a) {
+  var checking = a;
+  if(checking == 0){
+  window.alert("JOINED");
+  var change = document.getElementById("check").style.opacity="0";
+  var changes = document.getElementById("checkt").style.opacity="1";
+  var changess = document.getElementById("change").style.opacity="0";
+  var change = document.getElementById("check").style.zIndex="-1";
+  var makesure = document.getElementById('change').onclick = null;
+  }
+  else if(checking == 1){
+  window.alert("SORRY THIS IS ONLY FOR APU STUDENTS");
+  location.replace("homepage.html");
+  }
+
+}
+
+</script>
+
+
+</head>
+
+<body>
+<div class="nav">
+	<ul>
+		<li><a href="homepage.html">HOME</a>
+			<ul>
+			<li><a href="blogpost.html">BLOG POST</a></li>
+			<li><a href="sponsor.html">SPONSOR</a></li>
+			<li><a href="joinus.html">JOIN US</a></li>
+			</ul>
+		</li>
+		<li><a href="aboutus.html">ABOUT US</a>
+			<ul>
+			<li><a href="gallery.html">GALLERY</a></li>
+			<li><a href="executives.html">EXECUTIVES</a></li>
+			<li><a href="achievements.html">ACHIEVEMENTS</a></li>
+			</ul>
+		</li>
+			<li><a href="timetable.html">TIMETABLE</a>
+			<ul>
+			<li><a href="clubschedule.html">CLUB SCHEDULES</a></li>
+			<li><a href="skilltraining.html">SKILL TRAINING</a></li>
+			<li><a href="strategytraining.html">STRATEGY TRAINING</a></li>
+			</ul>
+		</li>
+			<li><a href="event.html">EVENT</a>
+			<ul>
+			<li><a href="competitionschedule.html">COMPETITION SCHEDULE</a></li>
+			<li><a href="competitionbracket.html">COMPETITION BRACKET</a></li>
+			<li><a href="pastevent.html">PAST EVENTS</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<div class="logo" style="position:relative;">
+	<input type="image" class="rotate shadow circularimage" alt="basketball club's logo" src="share/logo.jpeg" onclick="location.href='homepage.html'" title="HomePage"/>
+</div>
+
+		<div class="shadow effectWhenHover" style="cursor:default;background:#666699;border:1px solid black;font-size:50px;width:100%;text-align:center;text-shadow:2px 2px white">
+			We want You	
+		</div> 
+		
+		<br></br>
+		<div id="change" class="cardjoin rowdisplay" style="background-image:url('eamon/join.png');margin: auto;width:1000px;height:600px;text-align:center;box-shadow:0 3px 10px 0 white" onclick="myFunction()"></div>
+		
+		<br></br><br></br>
+		
+		<div id="check" class="shadow" style="opacity:0;background:black;position: absolute;z-index: -1;padding:10px;margin-left:250px;margin-top:-450px;background:black;color:white;font-size:50px;text-align:center">
+		But First, Are You An APU Student?
+		<br></br>
+		<input type="button" class="button" id="IS" value="I AM" onclick="checkbox(0)"/>
+		<input type="button" class="button" id="NOT" value="NOT REALLY" onclick="checkbox(1)"/>
+		</div>
+		
+		<div id="checkt" class="shadow" style="opacity:0;background:black;position: absolute;z-index: 3;padding:10px;margin-left:250px;margin-top:-450px;background:black;color:white;font-size:40px;text-align:center">
+		Welcome :&gt; Remember to join the activities.
+		<br></br>
+		</div>
+
+
+
+<br/><br/><br/><br/>
+<div style="position:relative;"><img class="shadow topbutton" src="share/top.png" alt="" style="position:absolute;z-index:3;bottom:10px; right:20px" onclick="totop()"/></div>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+﻿body{
+	margin:0px;
+	background-image:url('eamon/basketballshout.jpg');
+	cursor:url("jershyan/basketball.png"), default;
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.nav{
+  	position: relative; 
+  	text-shadow:2px 2px black;
+  	color:white;
+ 	z-index: 1; /*ensure the navigational bar is on a different plane, thus doesn't interfer with other content*/
+	width:100%;
+	height:60px;
+}
+.nav ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	position:absolute;
+}
+.nav ul li{
+	float:left;
+	margin-top:20px;
+}
+.nav ul li a{
+	width:150px;
+	color:white;
+	display:block;
+	text-decoration:none;
+	font-size:20px;
+	text-align:center;
+	border-radius:10px;
+	font-family:Century Gothic;
+	font-weight:bold;
+}
+.nav a:hover{
+	background:#2A5DB0;
+	color:white;
+}
+.nav ul li ul{
+	background:black;
+	box-shadow: 0 3px 10px 0 black;
+}
+.nav ul li ul li{
+	float:none;
+}
+.nav ul li ul{
+	display:none;
+}
+.nav ul li:hover ul{
+	display:block;
+}
+/*the rotating logo*/
+.circularimage{
+	position:relative;
+  	top:-20px;
+  	left:1100px;
+	z-index:2; /*ensure the image is on a highest plane, thus doesn't interfer with other content*/
+	border:solid 1px white;
+	width:225px;
+	border-radius:225px;
+}
+.rotate{
+	-webkit-animation: spin 10s linear infinite;
+	-moz-animation:spin 10s linear infinite;
+	animation:spin 10s linear infinite;
+}
+@-webkit-keyframes spin{
+	100%{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes spin{
+	100%{-webkit-transform:rotate(360deg);}
+}
+@keyframes spin{
+	100%{-webkit-transform:rotate(360deg);}
+}
+.shadow{
+	box-shadow: 0 0 10px 3px black;
+}
+html {
+  scroll-behavior: smooth;
+}
+.topbutton{ 
+	width:50px;
+	height:50px;
+	background:white;
+	border:2px solid black;
+	border-radius:90px;  /*create an oval shaped button*/
+	transition:transform 0.5s; /*set the total time needed for scalling to 0.5s to create animaiton*/
+}
+.topbutton:hover{
+	transform:translateY(-10px); /*increase the scale of the picture by 20%*/
+	color:white;
+	background-color:#2A5DB0; 
+}
+
+
